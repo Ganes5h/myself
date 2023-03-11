@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <link rel="icon" href="favicon.ico?v=2">
+  <title>Ganesh Portfolio</title>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">GK</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#section0">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section1">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section2" aria-disabled="true">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section3" aria-disabled="true">Conatact Me</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="about" id="section0">
+    <div class="div1">
+      <h1>Hello</h1>
+      <h1>I'm <span class="auto-type"></span></h1>
+      <p>a computer science student at KLS GIT ,With excellent problem solving skills and ability
+        to perform well in a team ,passionate about coding</p>
+
+    </div>
+    <div class="div2">
+      <img src="ganu.png" alt="No photo" height="400px">
+    </div>
+  </div>
+  <div class="e" id="section1">
+    <img src="https://cdn-icons-png.flaticon.com/128/686/686051.png" width="25px">
+    <h1>Education</h1>
+  </div>
+  <div class="edu">
+
+    <div class="card" data-aos="fade-left">
+      <h1>Shri Shivaji Vidyalaya</h1>
+      <p>Passed out 10th on April-2019</p>
+
+      <div class="percentage">
+        <h3>Percentage- 95.68</h3>
+      </div>
+    </div>
+    <div class="card" data-aos="fade-left">
+      <h1>
+        Maratha Mandal's PU college
+      </h1>
+      <p>Passed out 12th on july 2021</p>
+      <div class="percentage">
+        <h3>Percentage- 97.16</h3>
+      </div>
+    </div>
+    <div class="card" data-aos="fade-left">
+      <h1>KLS Gogte Institute of Technology</h1>
+      <p>Pursuing B.E. 2nd Year in computer Science </p>
+      <div class="percentage">
+        <h3>CGPA - 9.58</h3>
+      </div>
+    </div>
+
+  </div>
+  <div class="parentskill" data-aos="fade-left">
+    <div class="skills" id="section2">
+      <div class="s">
+        <h1>Skills</h1>
+      </div>
+      <li>
+        <h4>C/C++ - 90%</h4>
+        <span class="bar"><span class="c"></span></span>
+      </li>
+      <li>
+        <h4>Java - 80%</h4>
+        <span class="bar"><span class="java"></span></span>
+      </li>
+      <li>
+        <h4>Python - 50%</h4>
+        <span class="bar"><span class="phy"></span></span>
+      </li>
+      <li>
+        <h4>Frontend Development - 80%</h4>
+        <span class="bar"><span class="front"></span></span>
+      </li>
+      <li>
+        <h4>Data visualization tools - 70%</h4>
+        <span class="bar"><span class="data"></span></span>
+      </li>
+
+    </div>
+  </div>
+
+  <div class="parentcontact" id="section3" data-aos="fade-left">
+    <div class="contact" id="section3">
+      <div id="s">
+        <h1>CONTACT ME</h1>
+      </div>
+      <div class="contactchild for" data-aos="fade-left">
+        <form action="javascript: sendmail()" method="post">
+
+          <input type="text" name="name" id="name" placeholder="Your Name" required>
+          <input type="email" name="email" id="email" placeholder="E-mail" required>
+
+          <input type="text" id="message" placeholder="Message" required>
+          <button class="bton" type="submit">Send Message</button>
+        </form>
+      </div>
+      <div class="contactchild2" data-aos="fade-left">
+       
+
+        <div class="Other-Profiles">
+          <h3>Other Profiles</h3>
+          <li>
+            <a target="_blank" href="https://www.hackerrank.com/gneshkugaji">HackerRank</a>
+          </li>
+          <li>
+            <a target="_blank"
+              href="https://profile.codingninjas.com/0bf9f98a-3091-43a7-82ff-3fb612625144?_ga=2.209374226.1841436225.1676347846-84654642.1667753449">Coding
+              Ninjas</a>
+          </li>
+          <li>
+            <a target="_blank" href="https://leetcode.com/Ganesh_Kugaji/">Leetcode</a>
+          </li><br>
+          <div id="social">
+            <a target="_blank" href="https://www.linkedin.com/in/ganesh-kugaji-69483b244"><img class="img"
+                src="https://cdn-icons-png.flaticon.com/512/3536/3536569.png" width="50px"></a>
+            <a target="_blank" href="https://www.instagram.com/kugajiganesh/?igshid=YmMyMTA2M2Y%3D"><img class="img"
+                src="https://cdn-icons-png.flaticon.com/128/1384/1384031.png" width="50px"></a>
+            <a target="_blank" href="https://github.com/Ganes5h"><img class="img1"
+                src="https://t4.ftcdn.net/jpg/02/50/39/63/240_F_250396352_2AAgVSEFNdZLtJwAgN4oNM1ty6ezUaEM.jpg"
+                width="70px"></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <div class="footer">
+    <div class="fot-sec" data-aos="fade-left">
+      <h2>About Me</h2>
+      <p>
+        I'm 
+        a computer science student at KLS GIT ,With excellent problem solving skills and ability to perform well in a
+        team ,passionate about coding
+      </p>
+    </div>
+    <div class="fot-sec" data-aos="fade-left">
+      <h2>
+        Quick Links </h2>
+      <p> <a href="#section0">- About Me</a></p>
+      <p><a href="#section1">- Education</a></p>
+      <p><a href="#section2">- Skills</a></p>
+      <p><a href="#section3">- Contact Me</a></p>
+    </div>
+    <div class="fot-sec" data-aos="fade-left">
+      <h2>
+        Have a Question ?</h2>
+      <p><img src="white location.png" width="20px"> - Belgaum, Karnataka</a></p>
+      <p><img src="white call.png" width="20px"> <a href="tel: +91 7204917202">- 7204917202</a></p>
+      <p><img src="white email.png" width="30px"> - gneshkugaji@gmail.com</p></a></p>
+    </div>
+
+  </div>
+  <div class="copyright">
+    Copyright &copy2023. All rights reserved. | This website is made by Ganesh K.
+  </div>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed(".auto-type",
+      {
+        strings: ["Ganesh", "a Programer", " a Frontend developer", " a Coder"],
+        typeSpeed: 150,
+        backspeed: 150,
+        loop: true
+      })
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 150,
+      duration: 1000,
+    });
+  </script>
+
+
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+  <script>
+    function sendmail() {
+      Email.send({
+        SecureToken: '4ec0e977-105e-4e35-b5f3-c57ab33a01ba',
+        
+        To: 'gneshkugaji@gmail.com',
+        From: 'gneshkugaji@gmail.com',
+        Subject: "New Contact Form Enquiry",
+        Body: "Name :" + document.getElementById("name").value
+          + "<br> Email :" + document.getElementById("email").value
+          + "<br> message :" + document.getElementById("message").value
+      }).then(
+        message => alert(message)
+      );
+    }
+  </script>
+</body>
+
+</html>
